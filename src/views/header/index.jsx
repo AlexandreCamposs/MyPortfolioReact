@@ -8,7 +8,7 @@ const Index = () => {
   return (
     <div className="main">
       <div class="image-background">
-        <img src="./public/image/bg.jpg" alt="" />
+        <img src="public/image/bg.jpg" alt="" />
       </div>
       <div className="container-header">
         <nav className="">
