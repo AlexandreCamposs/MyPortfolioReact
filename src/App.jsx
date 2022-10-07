@@ -1,17 +1,7 @@
-import React from 'react';
+import React from "react";
+import ChangeRouters from "./routers";
 import './App.scss';
-import Index from './views/header/index';
-import HardSkills from './views/hardskills';
-import MyProject from './views/myprojects/index';
 
-function App() {
-  return (
-    <div className="App">
-      <Index />
-      <HardSkills/>
-      <MyProject/>
-    </div>
-  );
-}
+const App = () => <ChangeRouters/> 
 
-export default App;
+export default App

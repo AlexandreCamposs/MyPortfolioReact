@@ -4,27 +4,18 @@ import { BsGithub } from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';
 import { BsWhatsapp } from 'react-icons/bs';
 
-const Index = () => {
+const Main = () => {
   return (
     <div className="main">
       <div class="image-background">
         <img src="image/bg.jpg" alt="" />
       </div>
-      <div className="container-header">
-        <nav className="">
-          <ul className="navegation">
-            <li>
-              <a href="">Home</a>
-            </li>
-            <li>
-              <a href="">Conhecimentos</a>
-            </li>
-            <li>
-              <a href="">Projetos</a>
-            </li>
-          </ul>
-        </nav>
-        <div className="information">
+
+      <div className="container-name">
+        <h1>Web Developer Front End </h1>
+        <h3>Alexandre Moura de Campos</h3>
+      </div>
+      <div className="information">
           <ul>
             <li>
               <a href="https://github.com/AlexandreCamposs">
@@ -43,13 +34,8 @@ const Index = () => {
             </li>
           </ul>
         </div>
-      </div>
-      <div className="container-name">
-        <h1>Web Developer Front End </h1>
-        <h3>Alexandre Moura de Campos</h3>
-      </div>
     </div>
   );
 };
 
-export default Index;
+export default Main;

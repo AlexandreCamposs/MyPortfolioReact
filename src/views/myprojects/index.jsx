@@ -1,45 +1,17 @@
-import React from "react";
-import "./style.scss";
+import './style.scss';
 
-const MyProject = () => {
+const MyProject = ({ items }) => {
   return (
     <div className="container-p">
-      <h3>Projects</h3>
       <div className="container-projects">
         <div className="project-descrition">
-            <h4>
-                dsadasdas
-            </h4>
-            <h5>
-dsadas
-            </h5>
-            <p>
-                dasdasdas
-            </p>
+          
+          <img src={items.Img} className="img-background" />
+          <h4>{items.title}</h4>
+          <h5>{items.description}</h5>
+          <p>{items.data}</p>
+          
         </div>
-        <div className="project-descrition">
-            <h4>
-                dsadasdas
-            </h4>
-            <h5>
-dsadas
-            </h5>
-            <p>
-                dasdasdas
-            </p>
-        </div>
-        <div className="project-descrition">
-            <h4>
-                dsadasdas
-            </h4>
-            <h5>
-dsadas
-            </h5>
-            <p>
-                dasdasdas
-            </p>
-        </div>
-
       </div>
     </div>
   );
