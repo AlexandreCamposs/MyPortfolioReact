@@ -1,0 +1,33 @@
+main{
+  height: 100vh;
+  // background-color: black;
+  border: 2px solid black;
+  padding: 5px;
+  .container-imersao{
+    border: 2px solid red;
+    padding: 5px;
+    margin: 60px 0 0 0;
+    h1{
+      margin-right: 15px;
+      list-style: none;
+      font-size: 2rem;
+      color: var(--branco);
+      text-shadow: 0.2rem 0.2rem 2px rgb(51 175 175 / 60%);
+      font-weight: 600;
+      text-decoration: none;
+      padding: 8px;
+    }
+    .container-information{
+      h3{
+        margin-right: 15px;
+        list-style: none;
+        font-size: 2rem;
+        color: var(--branco);
+        text-shadow: 0.2rem 0.2rem 2px rgb(51 175 175 / 60%);
+        font-weight: 600;
+        text-decoration: none;
+        padding: 8px;
+      }
+    }
+  }
+}

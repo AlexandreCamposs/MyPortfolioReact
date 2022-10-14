@@ -36,7 +36,7 @@ export const projects = [
   {
     title: 'Imersão dev Alura.',
     description: 'HTML, CSS, JavaScript',
-    URL: 'https://alexandrecamposs.github.io/Imersao-Alura-JS/',
+    URL: '/projetos',
     Img:'https://alexandrecamposs.github.io/MyPortfolio/img/imersao%20dev.jpg'
   },
   {
