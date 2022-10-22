@@ -42,7 +42,7 @@ export const projects = [
   {
     title: 'Projetos JS',
     description: 'HTML, CSS, JavaScript',
-    URL: 'https://alexandrecamposs.github.io/JS_CursoEmVideo/',
+    URL: '/projetos2',
     Img:'https://alexandrecamposs.github.io/MyPortfolio/img/cursoemvideo.jpg'
   },
 ];

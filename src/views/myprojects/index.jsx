@@ -9,7 +9,7 @@ const MyProject = ({ items }) => {
           <img src={items.Img} className="img-background" />
           <h4>{items.title}</h4>
           <h5>{items.description}</h5>
-          <p>{items.data}</p>
+          <p>{items.url}</p>
           
         </div>
       </div>

@@ -21,7 +21,7 @@ export default function Card({title, projects}) {
         spaceBetween={20}
         modules={[Autoplay]}
         autoplay={{
-            delay: 1500,
+            delay: 361500,
             disableOnInteraction: false
         }}
         className="mySwiper"

@@ -27,11 +27,11 @@ const Main = () => {
                 <BsLinkedin />
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="https://wa.me/5513997615741">
                 <BsWhatsapp />
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
     </div>

@@ -9,7 +9,7 @@ const Header = () => {
         <nav className="">
           <ul className="navegation">
             <li>
-              <a href="">Home</a>
+              <a href="/home">Home</a>
             </li>
             <li>
               <a href="">Hard Skill</a>
