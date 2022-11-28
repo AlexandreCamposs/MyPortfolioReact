@@ -13,7 +13,7 @@ const Imersao = () => {
             <h4>CALCULADORA</h4>
             <div className="container-descrition2">
               <div>
-                <a href="">
+                <a href="https://github.com/AlexandreCamposs/Imersao-Alura-JS/tree/main/Aulas/Aula01">
                   <BsGithub />
                 </a>
               </div>

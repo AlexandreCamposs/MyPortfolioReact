@@ -15,13 +15,13 @@ import { Pagination } from "swiper";
 export default function Card({title, projects}) {
   return (
     <div className="container-swiper">
-        <h3>Projetos</h3>
+        <h3>Projects</h3>
       <Swiper
         slidesPerView={3}
-        spaceBetween={20}
+        spaceBetween={200}
         modules={[Autoplay]}
         autoplay={{
-            delay: 361500,
+            delay: 2000,
             disableOnInteraction: false
         }}
         className="mySwiper"
