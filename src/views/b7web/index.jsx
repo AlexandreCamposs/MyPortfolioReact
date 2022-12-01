@@ -55,7 +55,7 @@ const B7webJS = () => {
           </div>
         </div>
         <div className="container-information">
-          <h4>Hora do dia</h4>
+          <h4>Jogo da velha</h4>
           <div className="container-descrition2">
             <div>
               <a href="https://github.com/AlexandreCamposs/JS-7-Days-Cod/tree/main/4-JogoDaVelha">
@@ -69,36 +69,7 @@ const B7webJS = () => {
             </div>
           </div>
         </div>
-        <div className="container-information">
-          <h4>Verificador de idade</h4>
-          <div className="container-descrition2">
-            <div>
-              <a href="https://github.com/AlexandreCamposs/JS_CursoEmVideo/tree/main/4-Modulo_D/Aula12/ex15">
-                <BsGithub />
-              </a>
-            </div>
-            <div>
-              <a href="https://alexandrecamposs.github.io/JS_CursoEmVideo/4-Modulo_D/Aula12/ex15/exercicio.html">
-                <MdOutlineContactPage />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="container-information">
-          <h4>Contador</h4>
-          <div className="container-descrition2">
-            <div>
-              <a href="https://github.com/AlexandreCamposs/JS_CursoEmVideo/tree/main/5-Modulo_E/Aula14/ex16">
-                <BsGithub />
-              </a>
-            </div>
-            <div>
-              <a href="https://alexandrecamposs.github.io/JS_CursoEmVideo/5-Modulo_E/Aula14/ex16/exercicio.html">
-                <MdOutlineContactPage />
-              </a>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
   </main>
