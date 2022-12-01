@@ -49,6 +49,6 @@ export const projects = [
     title: 'Projetos JS II',
     description: 'HTML, CSS, JavaScript',
     URL: '/projeto3',
-    Img:'./public/image/js.jpg'
+    Img:'image/js.jpg'
   },
 ];
