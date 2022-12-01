@@ -9,6 +9,7 @@ main {
   border: 2px solid black;
   padding: 5px;
   .container-imersao {
+    text-align: center;
     // border: 2px solid red;
     padding: 5px;
     margin: 7rem 0 0 3rem;
@@ -24,6 +25,18 @@ main {
       padding: 10px;
     }
     .container-information {
+      display: flex;
+      width: 246px;
+      height: 150px;
+      flex-direction: column;
+      justify-content: center;
+      background-color: var(--cinza);
+      box-shadow: 3px 3px 10px #bbb;
+      border-radius: 5px;
+      padding: 5px;
+      margin: 15px;
+      align-items: center;
+      
       h3 {
         margin-right: 15px;
         list-style: none;
@@ -35,26 +48,54 @@ main {
         padding: 8px;
       }
     }
-    .container-descrition{
+    .container-descrition {
       display: flex;
-      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      flex-wrap: wrap;
+      // align-items: center;
+      // flex-direction: column;
       margin-top: 2rem;
-        h4{
-          font-size: 1.7rem;
-          text-shadow: 0.2rem 0.2rem 2px rgb(51 175 175 / 80%);
-        }
-      a{
+      h4 {
+        font-size: 1.7rem;
+        text-shadow: 0.2rem 0.2rem 2px rgb(51 175 175 / 80%);
+      }
+      a {
         margin-right: 1rem;
         font-size: 1.5rem;
         color: white;
       }
     }
-    .container-descrition2{
+    .container-descrition2 {
       display: flex;
       // display: flex;
       // flex-direction: column;
       margin-top: 1rem;
     }
-    
   }
 }
+// .soma{
+//   background-image: url(../public/image/soma.jpg);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+// .nascionalidade{
+//   background-image: url(../public/image/nascionalidade.jpg);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+// .soma{
+//   background-image: url(../public/image/soma.jpg);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+// .soma{
+//   background-image: url(../public/image/soma.jpg);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+// .soma{
+//   background-image: url(../public/image/soma.jpg);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }

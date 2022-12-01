@@ -40,9 +40,15 @@ export const projects = [
     Img:'https://alexandrecamposs.github.io/MyPortfolio/img/imersao%20dev.jpg'
   },
   {
-    title: 'Projetos JS',
+    title: 'Projetos JS I',
     description: 'HTML, CSS, JavaScript',
-    URL: '/projetos2',
+    URL: '/projeto2',
     Img:'https://alexandrecamposs.github.io/MyPortfolio/img/cursoemvideo.jpg'
+  },
+  {
+    title: 'Projetos JS II',
+    description: 'HTML, CSS, JavaScript',
+    URL: '/projeto3',
+    Img:'./public/image/js.jpg'
   },
 ];

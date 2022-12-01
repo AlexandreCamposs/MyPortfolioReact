@@ -7,10 +7,10 @@ const ImersaoC = () => {
   return (
     <main>
       <div className="container-imersao">
-        <h1>Imersão JavaScript</h1>
+        <h1>Projetos JavaScript CursoEmVideo</h1>
         <div className="container-descrition">
-          <div className="container-information">
-            <h4>SOMA DOS VALORES I</h4>
+          <div className="container-information soma">
+            <h4>Soma dos valores</h4>
             <div className="container-descrition2">
               <div>
                 <a href="https://github.com/AlexandreCamposs/JS_CursoEmVideo/blob/main/3-Modulo_C/Aula10/script07.js">
@@ -24,8 +24,8 @@ const ImersaoC = () => {
               </div>
             </div>
           </div>
-          <div className="container-information">
-            <h4>NASCIONALIDADE</h4>
+          <div className="container-information nascionalidade">
+            <h4>Nascionalidade</h4>
             <div className="container-descrition2">
               <div>
                 <a href="https://github.com/AlexandreCamposs/JS_CursoEmVideo/blob/main/4-Modulo_D/Aula11/scriptdesafio.js">
@@ -40,7 +40,7 @@ const ImersaoC = () => {
             </div>
           </div>
           <div className="container-information">
-            <h4>SISTEMA DE MULTA</h4>
+            <h4>Sistema de multa</h4>
             <div className="container-descrition2">
               <div>
                 <a href="https://github.com/AlexandreCamposs/JS_CursoEmVideo/blob/main/4-Modulo_D/Aula11/script10.js">
@@ -55,7 +55,7 @@ const ImersaoC = () => {
             </div>
           </div>
           <div className="container-information">
-            <h4>HORA DO DIA</h4>
+            <h4>Hora do dia</h4>
             <div className="container-descrition2">
               <div>
                 <a href="https://github.com/AlexandreCamposs/JS_CursoEmVideo/tree/main/4-Modulo_D/Aula12/ex14">
@@ -70,7 +70,7 @@ const ImersaoC = () => {
             </div>
           </div>
           <div className="container-information">
-            <h4>VERIFICADOR DE IDADE</h4>
+            <h4>Verificador de idade</h4>
             <div className="container-descrition2">
               <div>
                 <a href="https://github.com/AlexandreCamposs/JS_CursoEmVideo/tree/main/4-Modulo_D/Aula12/ex15">
@@ -85,7 +85,7 @@ const ImersaoC = () => {
             </div>
           </div>
           <div className="container-information">
-            <h4>CONTAR</h4>
+            <h4>Contador</h4>
             <div className="container-descrition2">
               <div>
                 <a href="https://github.com/AlexandreCamposs/JS_CursoEmVideo/tree/main/5-Modulo_E/Aula14/ex16">
@@ -100,7 +100,7 @@ const ImersaoC = () => {
             </div>
           </div>
           <div className="container-information">
-            <h4>TABUADA</h4>
+            <h4>Tabuada</h4>
             <div className="container-descrition2">
               <div>
                 <a href="https://github.com/AlexandreCamposs/JS_CursoEmVideo/tree/main/5-Modulo_E/Aula14/ex17">
@@ -115,7 +115,7 @@ const ImersaoC = () => {
             </div>
           </div>
           <div className="container-information">
-            <h4>ANALISADOR DE NÚMEROS</h4>
+            <h4>Analisador de números</h4>
             <div className="container-descrition2">
               <div>
                 <a href="https://github.com/AlexandreCamposs/JS_CursoEmVideo/tree/main/6-Modulo_F/Aula16/ex18">

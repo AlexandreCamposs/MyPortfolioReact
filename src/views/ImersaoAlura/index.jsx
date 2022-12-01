@@ -7,10 +7,10 @@ const Imersao = () => {
   return (
     <main>
       <div className="container-imersao">
-        <h1>Imersão alura</h1>
+        <h1>Imersão alura javascript</h1>
         <div className="container-descrition">
           <div className="container-information">
-            <h4>CALCULADORA</h4>
+            <h4>Calculando Média</h4>
             <div className="container-descrition2">
               <div>
                 <a href="https://github.com/AlexandreCamposs/Imersao-Alura-JS/tree/main/Aulas/Aula01">
@@ -25,7 +25,7 @@ const Imersao = () => {
             </div>
           </div>
           <div className="container-information">
-            <h4>CONVERSOR DE MOEDAS</h4>
+            <h4>Conversor de moedas</h4>
             <div className="container-descrition2">
               <div>
                 <a href="https://github.com/AlexandreCamposs/Imersao-Alura-JS/tree/main/Aulas/Aula02">
@@ -40,7 +40,7 @@ const Imersao = () => {
             </div>
           </div>
           <div className="container-information">
-            <h4>MENTALISTA</h4>
+            <h4>Mentalista</h4>
             <div className="container-descrition2">
               <div>
                 <a href="https://github.com/AlexandreCamposs/Imersao-Alura-JS/tree/main/Aulas/Aula03">
@@ -55,7 +55,7 @@ const Imersao = () => {
             </div>
           </div>
           <div className="container-information">
-            <h4>ALURAFLIX</h4>
+            <h4>AluraFlix</h4>
             <div className="container-descrition2">
               <div>
                 <a href="https://github.com/AlexandreCamposs/Imersao-Alura-JS/tree/main/Aulas/Aula04">
@@ -70,7 +70,7 @@ const Imersao = () => {
             </div>
           </div>
           <div className="container-information">
-            <h4>ALURAFLIX2.0</h4>
+            <h4>AluraFlix 2.0</h4>
             <div className="container-descrition2">
               <div>
                 <a href="https://github.com/AlexandreCamposs/Imersao-Alura-JS/tree/main/Aulas/Aula05">
@@ -85,7 +85,7 @@ const Imersao = () => {
             </div>
           </div>
           <div className="container-information">
-            <h4>TABELA DE CLASSIFICAÇÃO</h4>
+            <h4>Tabela de classificação</h4>
             <div className="container-descrition2">
               <div>
                 <a href="https://github.com/AlexandreCamposs/Imersao-Alura-JS/tree/main/Aulas/Aula06">
@@ -100,7 +100,7 @@ const Imersao = () => {
             </div>
           </div>
           <div className="container-information">
-            <h4>SUPER TRUNFO-1.0</h4>
+            <h4>Super Trunfo 1.0</h4>
             <div className="container-descrition2">
               <div>
                 <a href="https://github.com/AlexandreCamposs/Imersao-Alura-JS/tree/main/Aulas/Aula07">
@@ -115,7 +115,7 @@ const Imersao = () => {
             </div>
           </div>
           <div className="container-information">
-            <h4>SUPER TRUNFO-2.0</h4>
+            <h4>Super Trunfo 2.0</h4>
             <div className="container-descrition2">
               <div>
                 <a href="https://github.com/AlexandreCamposs/Imersao-Alura-JS/tree/main/Aulas/Aula08">
