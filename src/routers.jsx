@@ -12,7 +12,7 @@ const ChangeRouters = () => {
     <Router>
       <Header />
       <Routes>
-        <Route path="/home" element={<HomePage />} />
+        <Route path="home" element={<HomePage />} />
         <Route path="*" element={<HomePage />} />
         <Route path="/projetos" element={<Imersao />} />
         <Route path="/projeto2" element={<ImersaoC />} />
