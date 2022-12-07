@@ -1,30 +1,28 @@
 import React, {useState } from "react";
 import { Autoplay } from "swiper"
 import MyProject from "../../views/myprojects";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Link } from "react-router-dom";
-
 import "./styles.scss";
+import { useDeviceDetect } from "../../hooks/useDevice";
 
-// import required modules
-import { Pagination } from "swiper";
 
 export default function Card({title, projects}) {
+  const { isMobile } = useDeviceDetect();
   return (
     <div className="container-swiper">
         <h3>Projects</h3>
       <Swiper
-        slidesPerView={3}
-        spaceBetween={200}
-        modules={[Autoplay]}
-        autoplay={{
-            delay: 2000,
-            disableOnInteraction: false
-        }}
-        className="mySwiper"
+           spaceBetween={50}
+           slidesPerView={isMobile ? 1 : 4}
+          //  className={styles.swiperContainer}
+           loop={true}
+           autoplay={{
+             delay: 1000,
+             disableOnInteraction: false,
+           }}
+           modules={[Autoplay]}
       >
         {projects.map((project, index) => {
             return(<SwiperSlide key={index} className="swiper-container">

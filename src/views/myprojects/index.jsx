@@ -2,7 +2,7 @@ import './style.scss';
 
 const MyProject = ({ items }) => {
   return (
-    <div className="container-p">
+    <div className="container-p" id='section-projects'>
       <div className="container-projects">
         <div className="project-descrition">
           

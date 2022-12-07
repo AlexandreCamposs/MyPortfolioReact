@@ -7,7 +7,7 @@ import { TbBrandJavascript } from 'react-icons/tb';
 
 const HardSkills = () => {
   return (
-    <div className="container">
+    <div className="container" id='section-skills'>
       <h3>Hard Skills</h3>
       <div className="container-skills">
         <div className='hardskills'>

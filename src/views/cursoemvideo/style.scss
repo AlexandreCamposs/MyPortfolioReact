@@ -4,10 +4,13 @@ main {
   background-position: center;
   background-size: cover;
   color: white;
-  height: 100vh;
+  height: auto;
   // background-color: black;
   border: 2px solid black;
   padding: 5px;
+  @media (min-width: 1150px) {
+    height: 100vh;
+  }
   .container-imersao {
     text-align: center;
     // border: 2px solid red;
