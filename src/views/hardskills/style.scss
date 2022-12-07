@@ -1,41 +1,44 @@
-.container{
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 150px;
+  // height: 150px;
   background-color: white;
   // border: solid 2px aqua;
- 
-  h3{
+
+  h3 {
     font-size: 3rem;
     color: var(--azul);
     text-shadow: 0.3rem 0.3rem 1px rgb(0 0 0 / 50%);
     margin: 10px;
-    
   }
-  .container-skills{
+  .container-skills {
     display: flex;
     font-size: 2rem;
     font-family: var(--fonte-secundaria);
     font-weight: 700;
-
   }
-  .hardskills{
+  .hardskills {
     display: flex;
     // border: 2px solid red;
     padding: 5px;
-    .logo-skill{
+    .logo-skill {
       display: flex;
       align-items: center;
-      font-size: 3rem ;
+      font-size: 3rem;
       // border: 2px solid yellow;
       margin: 0 10px 0 10px;
     }
-    .skill{
+    .skill {
       display: flex;
       align-items: center;
-      color:var(--cinza)
+      color: var(--cinza);
+    }
+  }
+  @media (max-width: 720px) {
+    .container-skills {
+      display: block;
     }
   }
 }

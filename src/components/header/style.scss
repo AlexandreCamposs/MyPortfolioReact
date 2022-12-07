@@ -6,14 +6,14 @@
   display: flex;
   align-items: center;
   justify-content:center ;
-  min-width: 700px;
+  // width: 700px;
   padding: 3px;
   width:  100%;
-  
+ 
   nav {
     display: flex;
     align-items: center;
-    width: 100%;
+    // width: 100%;
     max-width: 1270px;
     justify-content: center;  
   }
@@ -35,6 +35,9 @@
       font-weight: 600;
       text-decoration: none;
       padding: 8px;
+      @media (max-width: 720px) {
+        font-size: 18px;
+    }
       &:hover {
         // border-radius: 5px;
         color: var(--azul);
@@ -46,3 +49,4 @@
   }
 
 }
+

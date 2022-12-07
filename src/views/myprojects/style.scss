@@ -7,8 +7,10 @@
   // background-color:olive;
   background-color: #f1f1f1;
   border-radius: 5px;
-  box-shadow: 3px 3px 10px #bbb;
+  box-shadow: 0.2rem  2px rgb(0 0 0 / 40%);
   .container-projects {
+    border: solid 2px black;
+    border-radius: 5px;
     display: flex;
     justify-content: space-around;
     // padding: 5px;
