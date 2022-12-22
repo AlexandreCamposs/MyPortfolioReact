@@ -69,6 +69,21 @@ const B7webJS = () => {
             </div>
           </div>
         </div>
+        <div className="container-information">
+          <h4>Quiz</h4>
+          <div className="container-descrition2">
+            <div>
+              <a href="https://github.com/AlexandreCamposs/JS-7-Days-Cod/tree/main/6-Quiz">
+                <BsGithub />
+              </a>
+            </div>
+            <div>
+            <a href="https://alexandrecamposs.github.io/JS-7-Days-Cod/6-Quiz/index.html">
+                <MdOutlineContactPage />
+              </a>
+            </div>
+          </div>
+        </div>
 
       </div>
     </div>

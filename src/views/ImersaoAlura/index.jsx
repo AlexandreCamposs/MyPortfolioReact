@@ -8,8 +8,8 @@ const Imersao = () => {
     <main>
       <div className="container-imersao">
         <h1>Imersão alura javascript</h1>
-        <div className="container-descrition">
-          <div className="container-information">
+        <div className="container-descrition ">
+          <div className="container-information calc">
             <h4>Calculando Média</h4>
             <div className="container-descrition2">
               <div>
